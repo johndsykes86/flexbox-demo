@@ -1,0 +1,46 @@
+/*General style*/
+
+* {
+  box-sizing: border-box;
+}
+
+#container{
+  margin: 20px 40px auto 40px;
+}
+
+.text {
+  margin: 30px;
+}
+
+/*flexbox styles*/
+.flex {
+  display: flex;
+}
+
+#header {
+  flex-flow: row-reverse wrap;
+  justify-content: flex-start;
+}
+
+
+#body {
+  margin: 20px;
+  flex-flow: column;
+  justify-content: center;
+}
+
+#body2 {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#footer {
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+/*header styles*/
+nav ul a {
+  margin: 5px;
+  text-decoration: none;
+}

@@ -4,22 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Flexbox demo</title>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <nav></nav>
+  <div id="container">
+
+    <div class="header flex" id='header'>
+      <nav>
+        <ul>
+          <a href=".body">Para1</a>
+          <a href=".body2">Para2</a>
+          <a href="#3">Para3</a>
+        </ul>
+      </nav>
     </div>
 
-    <div class="body">
-      <div class="para1"></div>
-      <div class="para2"></div>
-      <div class="para3"></div>
+    <div class="flex" id="body">
+      <section class="para2 text">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt architecto tenetur consequuntur, aut ab, a cupiditate dicta exercitationem labore facilis at fugiat repudiandae, unde dolorem doloribus in magni? Impedit, fugiat.</div>
+        <div>Error, illo ex molestias ullam non doloribus facilis architecto nihil et ipsa. Corporis ad laudantium similique commodi molestias nobis iusto sunt totam quo. Rerum magnam dicta mollitia eius, officia incidunt.</div>
+        <div>Earum reiciendis molestiae libero possimus labore voluptates cum tenetur enim adipisci porro officiis, dolores quae expedita, quisquam odit similique itaque inventore recusandae deserunt, nisi laborum velit quos. Incidunt, nihil fugiat.</div>
+        <div>Aliquid, laudantium quod repudiandae, pariatur iure adipisci voluptatem veniam ab odit eos nostrum, saepe eligendi a laboriosam itaque hic. Delectus magnam iure doloremque hic ut ratione voluptatibus eos dolorem, molestias!</div>
+      </section>
+
+      <section class="para2 text">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt architecto tenetur consequuntur, aut ab, a cupiditate dicta exercitationem labore facilis at fugiat repudiandae, unde dolorem doloribus in magni? Impedit, fugiat.</div>
+        <div>Error, illo ex molestias ullam non doloribus facilis architecto nihil et ipsa. Corporis ad laudantium similique commodi molestias nobis iusto sunt totam quo. Rerum magnam dicta mollitia eius, officia incidunt.</div>
+        <div>Earum reiciendis molestiae libero possimus labore voluptates cum tenetur enim adipisci porro officiis, dolores quae expedita, quisquam odit similique itaque inventore recusandae deserunt, nisi laborum velit quos. Incidunt, nihil fugiat.</div>
+        <div>Aliquid, laudantium quod repudiandae, pariatur iure adipisci voluptatem veniam ab odit eos nostrum, saepe eligendi a laboriosam itaque hic. Delectus magnam iure doloremque hic ut ratione voluptatibus eos dolorem, molestias!</div>
+      </section>
+
+      <section class="para3 text" >
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt architecto tenetur consequuntur, aut ab, a cupiditate dicta exercitationem labore facilis at fugiat repudiandae, unde dolorem doloribus in magni? Impedit, fugiat.</div>
+        <div>Error, illo ex molestias ullam non doloribus facilis architecto nihil et ipsa. Corporis ad laudantium similique commodi molestias nobis iusto sunt totam quo. Rerum magnam dicta mollitia eius, officia incidunt.</div>
+        <div>Earum reiciendis molestiae libero possimus labore voluptates cum tenetur enim adipisci porro officiis, dolores quae expedita, quisquam odit similique itaque inventore recusandae deserunt, nisi laborum velit quos. Incidunt, nihil fugiat.</div>
+        <div>Aliquid, laudantium quod repudiandae, pariatur iure adipisci voluptatem veniam ab odit eos nostrum, saepe eligendi a laboriosam itaque hic. Delectus magnam iure doloremque hic ut ratione voluptatibus eos dolorem, molestias!</div>
+      </section>
+
     </div>
 
-    <div class="footer">
-      <footer></footer>
+    <hr>
+
+    <div class="body2 flex text" id="body2">
+      <section class="text">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur unde rerum, ipsa in impedit voluptatibus consequuntur provident beatae aliquid esse nihil perferendis, ea? Maiores quos possimus ex tempore aut reiciendis.</div>
+        <div>Quis minima hic suscipit molestiae quaerat, deserunt accusamus adipisci error dignissimos accusantium pariatur magnam eius blanditiis saepe nostrum quia. Incidunt similique illum facilis atque adipisci, quaerat pariatur hic itaque placeat.</div>
+        <div>Qui quae ratione rerum. Ea eaque veniam quisquam vero sit hic quis laborum, molestiae accusantium, at ratione. Similique itaque quam quibusdam earum ut quos, ex ipsum, voluptatum, placeat corporis amet.</div>
+        <div>Tempore nobis neque delectus ad ab libero similique hic, cum ea? Eum aut, ipsam veritatis neque consequuntur eaque praesentium explicabo autem modi reiciendis eos, quia, perferendis! Iusto consequatur ducimus earum.</div>
+        <div>Officiis maxime magnam illum, minima culpa eum cum eius vero, nam ex. Adipisci blanditiis, cum, ipsam beatae a accusantium, cumque laboriosam maiores quas aliquid eos, voluptatem doloremque fuga exercitationem modi.</div>
+      </section>
+
+      <section class="text">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur unde rerum, ipsa in impedit voluptatibus consequuntur provident beatae aliquid esse nihil perferendis, ea? Maiores quos possimus ex tempore aut reiciendis.</div>
+        <div>Quis minima hic suscipit molestiae quaerat, deserunt accusamus adipisci error dignissimos accusantium pariatur magnam eius blanditiis saepe nostrum quia. Incidunt similique illum facilis atque adipisci, quaerat pariatur hic itaque placeat.</div>
+        <div>Qui quae ratione rerum. Ea eaque veniam quisquam vero sit hic quis laborum, molestiae accusantium, at ratione. Similique itaque quam quibusdam earum ut quos, ex ipsum, voluptatum, placeat corporis amet.</div>
+        <div>Tempore nobis neque delectus ad ab libero similique hic, cum ea? Eum aut, ipsam veritatis neque consequuntur eaque praesentium explicabo autem modi reiciendis eos, quia, perferendis! Iusto consequatur ducimus earum.</div>
+        <div>Officiis maxime magnam illum, minima culpa eum cum eius vero, nam ex. Adipisci blanditiis, cum, ipsam beatae a accusantium, cumque laboriosam maiores quas aliquid eos, voluptatem doloremque fuga exercitationem modi.</div>
+      </section>
+
+      <section class="text">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur unde rerum, ipsa in impedit voluptatibus consequuntur provident beatae aliquid esse nihil perferendis, ea? Maiores quos possimus ex tempore aut reiciendis.</div>
+        <div>Quis minima hic suscipit molestiae quaerat, deserunt accusamus adipisci error dignissimos accusantium pariatur magnam eius blanditiis saepe nostrum quia. Incidunt similique illum facilis atque adipisci, quaerat pariatur hic itaque placeat.</div>
+        <div>Qui quae ratione rerum. Ea eaque veniam quisquam vero sit hic quis laborum, molestiae accusantium, at ratione. Similique itaque quam quibusdam earum ut quos, ex ipsum, voluptatum, placeat corporis amet.</div>
+        <div>Tempore nobis neque delectus ad ab libero similique hic, cum ea? Eum aut, ipsam veritatis neque consequuntur eaque praesentium explicabo autem modi reiciendis eos, quia, perferendis! Iusto consequatur ducimus earum.</div>
+        <div>Officiis maxime magnam illum, minima culpa eum cum eius vero, nam ex. Adipisci blanditiis, cum, ipsam beatae a accusantium, cumque laboriosam maiores quas aliquid eos, voluptatem doloremque fuga exercitationem modi.</div>
+      </section>
+    </div>
+
+    <hr>
+
+    <div class="footer flex text" id='footer'>
+      <footer>
+        <section>
+          <p>This is a thing I did. By Johnathon Sykes</p>
+        </section>
+      </footer>
     </div>
 
   </div>
